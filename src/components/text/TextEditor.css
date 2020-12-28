@@ -1,0 +1,244 @@
+.RichEditor-root {
+  background: #fff;
+  border: 1px solid rgba(177, 169, 185, 0.25);
+  font-family: Montserrat;
+  /* font-style: normal; */
+  color: #73667d;
+  padding: 15px;
+  border-radius: 20px;
+  min-height: 400px;
+  max-height: 700px;
+}
+
+.RichEditor-editor {
+  border: 1px solid rgba(177, 169, 185, 0.25);
+  cursor: text;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 0px 20px 0px 20px;
+  line-height: 25px;
+  border-radius: 10px;
+  min-height: 350px;
+  max-height: 550px;
+  overflow-y: scroll;
+}
+
+.RichEditor-editor .public-DraftEditorPlaceholder-root,
+.RichEditor-editor .public-DraftEditor-content {
+  margin: 0 -15px -15px;
+  padding: 15px;
+}
+
+.RichEditor-editor .public-DraftEditor-content {
+  min-height: 500px;
+}
+
+.RichEditor-hidePlaceholder .public-DraftEditorPlaceholder-root {
+  display: none;
+}
+
+.RichEditor-editor .RichEditor-blockquote {
+  border-left: 5px solid #ff7197;
+  color: #73667d;
+  font-family: "Didot";
+  font-style: italic;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 16px 0;
+  padding: 10px 20px;
+}
+
+.RichEditor-editor .public-DraftStyleDefault-pre {
+  background-color: rgba(0, 0, 0, 0.05);
+  font-family: "Inconsolata", "Menlo", "Consolas", monospace;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.RichEditor-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: c;
+  font-family: Montserrat;
+  font-size: 14px;
+  margin-bottom: 5px;
+  user-select: none;
+  padding: 5px;
+}
+
+.RichEditor-styleButton {
+  color: #73667d;
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 16px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  border: 1px solid rgba(177, 169, 185, 0.25);
+  border-radius: 5px;
+}
+
+.active {
+  font-family: Montserrat;
+  border: 1px solid rgba(177, 169, 185, 1) !important;
+  background: rgba(255, 113, 151, 0.1);
+}
+
+.RichEditor-styleButton-header-one {
+  color: #73667d;
+  cursor: pointer;
+  margin-right: 16px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  border: 1px solid rgba(177, 169, 185, 0.25);
+  border-radius: 5px;
+}
+.RichEditor-styleButton-header-two {
+  color: #73667d;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 16px;
+
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  border: 1px solid rgba(177, 169, 185, 0.25);
+  border-radius: 5px;
+}
+.RichEditor-styleButton-header-three {
+  color: #73667d;
+  cursor: pointer;
+  font-size: 22px;
+  margin-right: 16px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  border: 1px solid rgba(177, 169, 185, 0.25);
+  border-radius: 5px;
+}
+.RichEditor-styleButton-blockquote {
+  color: #73667d;
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 16px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  border: 1px solid rgba(177, 169, 185, 0.25);
+  border-radius: 5px;
+}
+.RichEditor-styleButton-unordered-list-item {
+  color: #73667d;
+  cursor: pointer;
+  font-size: 25px;
+  margin-right: 16px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  border: 1px solid rgba(177, 169, 185, 0.25);
+  border-radius: 5px;
+}
+.RichEditor-styleButton-ordered-list-item {
+  color: #73667d;
+  cursor: pointer;
+  font-size: 8px;
+  margin-right: 16px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  border: 1px solid rgba(177, 169, 185, 0.25);
+  border-radius: 5px;
+  letter-spacing: 0em;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+.RichEditor-styleButton-BOLD {
+  color: #8abad3;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 16px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  border: 1px solid rgba(177, 169, 185, 0.25);
+  border-radius: 5px;
+}
+.RichEditor-styleButton-ITALIC {
+  color: #8abad3;
+  cursor: pointer;
+  font-size: 20px;
+  font-style: italic;
+  margin-right: 16px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  border: 1px solid rgba(177, 169, 185, 0.25);
+  border-radius: 5px;
+}
+.RichEditor-styleButton-UNDERLINE {
+  color: #8abad3;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration-line: underline;
+  margin-right: 16px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  border: 1px solid rgba(177, 169, 185, 0.25);
+  border-radius: 5px;
+}
+.RichEditor-styleButton-CODE {
+  color: #8abad3;
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 16px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  border: 1px solid rgba(177, 169, 185, 0.25);
+  border-radius: 5px;
+}
+
+.RichEditor-H2 {
+  font-size: 18px;
+}
+
+.RichEditor-H3 {
+  font-size: 22px;
+}
